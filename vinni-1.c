@@ -20,6 +20,6 @@ int main(void) {
         sum += ar[i];
     }
 
-    printf("Сумма = %d\n", sum);
+    printf("Абдуло, сумма = %d\n", sum);
     return 0;
 }
