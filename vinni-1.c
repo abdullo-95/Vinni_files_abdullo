@@ -4,9 +4,7 @@
 */
 
 #include <stdio.h>
-#include <locale.h>
 int main(void) {
-	setlocale(LC_ALL,"");
 	
     int ar[5];
     int i, sum = 0;
@@ -20,6 +18,7 @@ int main(void) {
         sum += ar[i];
     }
 
-    printf("Абдуло, сумма = %d\n", sum);
+    printf("Абдулло, сумма = %d\n", sum);
+	printf("Abdullo);
     return 0;
 }
