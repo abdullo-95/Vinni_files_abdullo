@@ -25,6 +25,25 @@ int main(void) {
     }
     fclose(f);
 
+
+
+    
+    /*#include <stdio.h>
+  
+struct person
+{
+    char * name;
+    int age;
+};
+  
+int main(void)
+{
+    struct person tom;
+    tom.name ="Tom";
+    tom.age = 22;
+    printf("Name:%s \t Age: %d\n", tom.name, tom.age);
+    return 0;
+}*/
     for (int i = count - 1; i >= 0; --i) {
         printf("%s %d\n", ar[i].name, ar[i].course);
     }
